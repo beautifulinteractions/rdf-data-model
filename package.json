@@ -28,10 +28,10 @@
   "dependencies": {},
   "devDependencies": {
     "browserify": "^13.0.1",
-    "eslint": "^2.11.0",
     "mocha": "^2.4.5",
     "rdf-data-model-test-suite": "git://github.com/bergos/rdf-data-model-test-suite.git#develop",
-    "standard": "^7.0.1"
+    "should": "^11.2.1",
+    "standard": "^10.0.2"
   },
   "readmeFilename": "README.md"
 }
