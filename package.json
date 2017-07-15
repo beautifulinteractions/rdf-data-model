@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-dist": "browserify index.js --standalone rdf --outfile dist/rdf-data-model.js",
-    "lint": "standard && eslint",
+    "lint": "eslint ./lib",
     "prepublish": "npm run build-dist",
     "test": "mocha"
   },
@@ -29,9 +29,12 @@
   "devDependencies": {
     "browserify": "^13.0.1",
     "mocha": "^2.4.5",
-    "rdf-data-model-test-suite": "git://github.com/bergos/rdf-data-model-test-suite.git#develop",
-    "should": "^11.2.1",
-    "standard": "^10.0.2"
+    "eslint": "^3.13.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "rdf-data-model": "rdf-ext/rdf-data-model#develop"
   },
   "readmeFilename": "README.md"
 }

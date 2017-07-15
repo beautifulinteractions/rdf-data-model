@@ -1,5 +1,7 @@
-'use strict'
 
-var DataFactory = require('./lib/data-factory')
+'use strict';
 
-module.exports = DataFactory
+const DataFactory = require('./lib/data-factory');
+
+module.exports = new DataFactory();
+module.exports.DataFactory = DataFactory;
